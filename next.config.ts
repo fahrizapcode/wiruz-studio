@@ -1,10 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
   output: "export",
   images: {
     unoptimized: true,
   },
-  basePath: "/wiruz-studio", // karena repo kamu bukan username.github.io
+  basePath: "/wiruz-studio", // pakai nama repo kamu
 };
 
 export default nextConfig;
