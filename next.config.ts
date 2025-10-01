@@ -2,10 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  images: {
-    unoptimized: true, // penting untuk GitHub Pages
-  },
-  basePath: "/wiruz-studio", // Ganti dengan nama repo GitHub kamu
+  images: { unoptimized: true },
+  basePath: "/wiruz-studio",
 };
 
 export default nextConfig;
