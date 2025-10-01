@@ -12,7 +12,12 @@ export default function Home() {
   return (
     <div className="bg-[#eff3f4]">
       <header className="sm:p-5 sm:px-8 flex justify-between items-center h-[12vh]">
-        <Image src="/logo.png" width={120} height={120} alt="logo" />
+        <Image
+          src={`/wiruz-studio/logo.png`}
+          width={120}
+          height={120}
+          alt="logo"
+        />
         <nav className="px-8 hidden font-[500] text-lg font-sans w-[35%] justify-between min-w-[400px] md:flex">
           <a
             className="cursor-pointer hover:font-[600] active:opacity-20"
