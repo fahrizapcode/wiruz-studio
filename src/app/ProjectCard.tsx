@@ -11,7 +11,7 @@ export default function ProjectCard({
   tag: string[];
 }) {
   return (
-    <div className="flex flex-col border p-2 rounded-xl gap-y-2 border-gray-300">
+    <div className="flex flex-col border p-1.5 rounded-xl gap-y-2 border-gray-300">
       <div className="w-[100%] h-66 flex">
         <Image
           src={srcImage}
