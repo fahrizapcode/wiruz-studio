@@ -1,9 +1,18 @@
-import type { NextConfig } from "next";
+import type { Config } from "tailwindcss";
 
-const nextConfig: NextConfig = {
-  output: "export", // static export
-  images: { unoptimized: true },
-  basePath: "/wiruz-studio", // pakai nama repo kamu
+const config: Config = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"], // Inter jadi default sans
+      },
+    },
+  },
+  plugins: [],
 };
-
-export default nextConfig;
+export default config;
