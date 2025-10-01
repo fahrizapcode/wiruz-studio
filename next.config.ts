@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/wiruz-studio", // pakai nama repo kamu
+  basePath: "/wiruz-studio-if", // pakai nama repo kamu
 };
 
 export default nextConfig;
