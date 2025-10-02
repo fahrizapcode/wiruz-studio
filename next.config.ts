@@ -1,18 +1,7 @@
-import type { Config } from "tailwindcss";
+import type { NextConfig } from "next";
 
-const config: Config = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Inter", "sans-serif"], // Inter jadi default sans
-      },
-    },
-  },
-  plugins: [],
+const nextConfig: NextConfig = {
+  reactStrictMode: true,
 };
-export default config;
+
+export default nextConfig;
